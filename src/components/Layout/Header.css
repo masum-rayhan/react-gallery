@@ -1,0 +1,46 @@
+.gallery-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #e0e0e0;
+  }
+  
+  .gallery-header h1 {
+    margin: 0;
+  }
+  
+  .gallery-header h2 {
+    margin: 0;
+    font-size: 16px;
+  }
+  
+  .delete-text {
+    cursor: pointer;
+    color: red;
+    font-weight: bold;
+    font-size: 16px;
+    margin: 0;
+    text-decoration: underline;
+  }
+
+  .selected-header {
+    display: flex;
+    align-items: center;
+  }
+  
+  .check-icon-container {
+    margin-right: 8px; /* Adjust margin as needed */
+  }
+  
+  .check-icon {
+    color: blue; /* Change the color to your preference */
+    font-size: 32px; /* Adjust the font size to make the icon larger */
+    margin-right: 8px;
+  }
+  
+  .selected-count {
+    display: flex;
+    align-items: center;
+  }
+  
